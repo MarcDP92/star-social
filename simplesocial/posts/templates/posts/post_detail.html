@@ -1,0 +1,9 @@
+{% extends 'posts/post_base.html' %}
+
+{% block post_content %}
+<div class="container list-container white-border col-md-8">
+  <div class="list-element">
+    {% include "posts/_post.html" %}
+  </div>
+</div>
+{% endblock %}

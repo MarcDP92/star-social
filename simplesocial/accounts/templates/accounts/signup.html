@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+{% block content %}
+<div class="container white-border col-md-6 form-container">
+  <div class="text-center" style="margin-top:20px;">
+    <h2 class="blue-color">Sign Up</h2>
+  </div>
+
+  <form class="my-form" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <input id="signup-button" type="submit" class="btn btn-default btn-lg my-button center-input" value="Sign Up">
+  </form>
+</div>
+{% endblock %}

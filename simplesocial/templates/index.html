@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container text-center white-border full-aligned col-md-6" id="home-text">
+    <h1 class="blue-color">Welcome to Star Social!</h1>
+    <h3>In this social network you’ll be able to join groups and meet people to talk about shared interests. We hope you enjoy!</h3>
+    <a class="btn btn-default btn-lg my-button" href="{% url 'accounts:login' %}" id="login-button" role="button">Login</a>
+  </div>
+
+  <canvas id="canvas"></canvas>
+{% endblock %}

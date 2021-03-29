@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+a{
+  color:white;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: #83DCFF;
+}
+
+
+.remove-scrolling{
+  overflow: hidden;
+  height: 100%;
+}
+
+#navbar {
+  background-color: black;
+  font-size: 1.3em;
+}
+
+.blue-color{
+  color: #00A2E2;
+}
+
+.blue-hover{
+  color: #83DCFF;
+}
+
+.white-border{
+  border: solid white 2px;
+  border-radius: 25px;
+}
+
+.white-border-bottom{
+  border-bottom: solid white 2px;
+}
+
+.full-aligned{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.pregroup-container{
+  position: absolute;
+}
+
+.my-button{
+  color:white;
+  background-color: #00A2E2;
+  border: solid white 2px;
+}
+
+.my-button:hover{
+  background-color: #008CC3;
+}
+
+.center-input{
+  position: relative;
+  display: block;
+  margin : 0 auto;
+}
+
+#login-button, #signup-button, #create-button{
+  margin-bottom: 30px;
+}
+
+#login-button:active, #signup-button:active, #create-button:active{
+  background-color: #00A2E2;
+}
+
+#home-text h1, h3{
+  margin: 30px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #00A2E2;
+   color: white;
+   text-align: center;
+}
+
+.footer p{
+  position: relative;
+  top: 7px;
+}
+
+#logo{
+  width: 60px;
+}
+
+.page-title{
+  margin-top: 80px;
+  margin-bottom:10px;
+}
+
+.page-subtitle{
+  margin-bottom:20px;
+}
+
+.list-container{
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width:50%;
+}
+
+.solo-post{
+  margin-bottom: 30px;
+  width:50%;
+}
+
+.list-element{
+  margin:20px;
+}
+
+.last-subelement{
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.my-form{
+  margin-top: 30px;
+}
+
+.form-container{
+  margin-top: 50px;
+  margin-bottom:100px;
+}

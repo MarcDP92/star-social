@@ -1,0 +1,21 @@
+{% extends 'posts/post_base.html' %}
+
+{% block prepost %}
+<div class="container text-center">
+  <h2 class="blue-color page-title">{{post_user.username}}'s Posts</h2>
+</div>
+{% endblock %}
+
+{% block post_content %}
+<div class="container list-container white-border col-md-8">
+  {% for post in post_list %}
+  {% if forloop.last %}
+	<div class="list-element">
+	{% else %}
+  <div class="white-border-bottom list-element">
+  {% endif %}
+    {% include "posts/_post.html" %}
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
