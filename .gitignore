@@ -1,0 +1,4 @@
+#Ignore assets folder
+assets
+
+#Ignore setting.py
