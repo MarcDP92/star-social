@@ -8,3 +8,4 @@ In this demo webpage you can:
 - Create you own group and share content
 
 -------Made with Django-------
+Check the webpage [here](http://kitus.eu.pythonanywhere.com/)
