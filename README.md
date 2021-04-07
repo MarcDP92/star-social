@@ -1,4 +1,4 @@
-# star-social
+# Star Social
 Django Project with CRUD views
 
 In this demo webpage you can:
