@@ -5,7 +5,7 @@ In this demo webpage you can:
 - Create a user and Login
 - Join groups of your interest
 - Post comments in the groups
-- Create you own group and share content
+- Create your own group and share content
 
 -------Made with Django-------
 
